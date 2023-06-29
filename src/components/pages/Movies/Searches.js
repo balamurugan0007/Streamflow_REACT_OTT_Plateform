@@ -14,10 +14,7 @@ const Searches = () => {
 
 const options = {
 	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': 'c36f5511acmsh9c19167b3c828c3p12e9b4jsn07f8f6884e3f',
-		'X-RapidAPI-Host': 'ott-details.p.rapidapi.com'
-	}
+
       };
         const fetchData=async()=>{
           const response = await fetch(select, options);
