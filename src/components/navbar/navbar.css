@@ -1,0 +1,41 @@
+
+
+#navbar a{
+    font-family: Roboto;
+    font-size: medium;
+
+    text-decoration: none;
+    color: white;
+    opacity: .8;
+}
+#navbar a:hover{
+    color: #3695ED;
+}
+.navbar-brand{
+    color: white;
+    font-family: Inter;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.navbar-brand span{
+    color: #3695ED;
+}
+
+#dropdownMenuLink{
+    background-color: #3695ED;
+    display: none;
+}
+.dropdown-menu{
+    background-color: #1B2B7D;
+    color: aliceblue;
+    
+}
+@media only screen and (max-width: 700px) {
+    #navbar-list{
+        display: none;
+    }
+
+    #dropdownMenuLink{
+        display: block;
+    }
+   }

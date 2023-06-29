@@ -1,0 +1,104 @@
+
+
+#videoCard{
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color:rgb(170, 8, 89);
+    
+ }
+ #videoCard img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    position: absolute;
+ }
+.movie-result-text{
+   display: none;
+    position: relative;
+    margin-top: 40px;
+   
+}
+.movie-result-text h2{
+    font-family: poppins;
+    font-weight: bolder;
+    font-size: medium;
+    color:#18c443;
+
+}
+.movie-result-text p{
+    font-family: Poppins;
+    font-size: small;
+    font-weight: 400;
+    color: aliceblue;
+    opacity: .85;
+}
+
+#videoCard:hover > img{
+    opacity: .4;
+    max-zoom: 400px;
+
+}
+#videoCard:hover > .movie-result-text{
+    display: block;
+}
+.rate h3{
+    color: rgb(155, 155, 40);
+    
+
+}
+.rate h4{
+    color: aliceblue;
+    font-weight: bolder;
+    opacity: .8;
+}
+
+#primium-navbar-btn{
+    font-family: Poppins;
+    font-size: medium;
+    font-weight: bolder;
+    color: aliceblue;
+    border: 2px solid;
+    border-color: #1B2B7D;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: .8;
+    padding: 10px;
+    
+}
+#primium-navbar-btn:hover{
+    background-color: #1B2B7D;
+    opacity: 1;
+
+}
+#primium-search-navbar{
+    background-color: none;
+    
+    margin-top: 610px;
+}
+#primium-para-icons{
+    color: rgb(211, 211, 22);
+    font-family: Inter;
+    font-size: small;
+    font-weight: bold;
+    display: block;
+}
+
+@media only screen and (max-width: 700px){
+
+    #videoCard img{
+        width: 270px;
+        height: 300px;
+        border-radius: 15px;
+        position: absolute;
+     }
+     #primium-search-navbar{
+        background-color: none;
+        
+        margin-top: 250px;
+    }
+
+}
