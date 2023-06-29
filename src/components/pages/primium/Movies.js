@@ -12,10 +12,7 @@ const Movies = () => {
 
       const options = {
         method: 'GET',
-        headers: {
-          accept: 'application/json',
-          Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkZmFjOTFjMjEwYTg3MDE2YWVjYzM3YmU5OThiYzQ4MyIsInN1YiI6IjYzNmE0MzJjMzUwMzk4MDA3ZDIyYjU3ZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.rDpi5ILs7fEWj0ayi5a_TzLrcT7EnyYtKCK10KkN1GQ'
-        }
+       
       };
 
       const fetchData = async () => {
